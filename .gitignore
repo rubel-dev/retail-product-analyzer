@@ -135,7 +135,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
 .envrc
 .venv
 env/
@@ -205,3 +204,57 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# =========================
+# Python cache & temp files
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# =========================
+# Virtual environment
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# OS / Editor files
+# =========================
+.DS_Store
+Thumbs.db
+.idea/
+
+# =========================
+# Data (VERY IMPORTANT)
+# =========================
+data/raw/
+data/processed/
+data/augmented/
+
+# =========================
+# Model artifacts
+# =========================
+models/
+checkpoints/
+*.pth
+*.pt
+*.onnx
+
+# =========================
+# Experiment outputs
+# =========================
+reports/
+outputs/
+runs/
+
+# =========================
+# Secrets
+# =========================
+*.env
+*.key
+*.secret
+config.bat
+node_modules
